@@ -101,7 +101,8 @@ input[type="radio"].visually-hidden {
 (min-width: 768px) and (min-resolution: 1.5dppx) {
   .page-header__logo {
     background-image: url("../img/bg-header@2x.jpg");
-    background-size: 1338px auto; /*непонятно вообще, что за размер :( */
+    /*background-size: 1338px auto; непонятно вообще, что за размер :(*/
+    background-size: 1200px auto;
   }
 }
 
@@ -432,9 +433,6 @@ input[type="radio"].visually-hidden {
 	width: 16px;
 	height: 16px;
 	opacity: .3;
-}
-
-.user-list__login-icon polygon {
 	fill: #fff;
 }
 
@@ -457,18 +455,12 @@ input[type="radio"].visually-hidden {
 
   .user-list__login:hover .user-list__login-icon {
 		opacity: 1;
-  }
-
-  .user-list__login:hover .user-list__login-icon polygon {
-  	fill: #826550;
+		fill: #826550;
   }
 
   .user-list__login:active .user-list__login-icon {
 		opacity: .3;
-  }
-
-  .user-list__login:active .user-list__login-icon polygon {
-  	fill: #fff;
+		fill: #fff;
   }
 }
 
@@ -502,10 +494,7 @@ input[type="radio"].visually-hidden {
 
   .user-list__login:hover .user-list__login-icon {
   	opacity: .3;
-  }
-
-  .user-list__login:hover .user-list__login-icon polygon {
-  	fill: #000;
+  	fill: #000
   }
 
   .user-list__login:active .user-list__login-icon {
